@@ -5,6 +5,7 @@ import Link from "next/link";
 import { useRouter } from "next/router";
 import { useEffect, useRef } from "react";
 import Bridge from "../components/Icons/Bridge";
+import Script from "next/script";
 // import Logo from "../components/Icons/Logo";
 import Modal from "../components/Modal";
 import cloudinary from "../utils/cloudinary";
@@ -112,6 +113,10 @@ const Home: NextPage = ({ images }: { images: ImageProps[] }) => {
       <footer className="p-6 text-center text-white/80 sm:p-12">
         A camera is a save button for the mind’s eye.
       </footer>
+      <script id="LA_COLLECT" src="//sdk.51.la/js-sdk-pro.min.js"></script>
+      <Script>{`
+      LA.init({id:"3I6wJkPqTZNQrh2x",ck:"3I6wJkPqTZNQrh2x"})
+      `}</Script>
     </>
   );
 };
