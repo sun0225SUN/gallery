@@ -113,10 +113,6 @@ const Home: NextPage = ({ images }: { images: ImageProps[] }) => {
       <footer className="p-6 text-center text-white/80 sm:p-12">
         A camera is a save button for the mind’s eye.
       </footer>
-      <script id="LA_COLLECT" src="//sdk.51.la/js-sdk-pro.min.js"></script>
-      <Script>{`
-      LA.init({id:"3I6wJkPqTZNQrh2x",ck:"3I6wJkPqTZNQrh2x"})
-      `}</Script>
     </>
   );
 };

@@ -47,7 +47,7 @@ export default function SharedModal({
 
   let currentImage = images ? images[index] : currentPhoto;
   const imageStyle = {
-    width: "auto",
+    width: "100%",
     height: "80vh",
   };
 
