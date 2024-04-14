@@ -62,7 +62,7 @@ const Home: NextPage = ({ images }: { images: ImageProps[] }) => {
             <Image
               width={80}
               height={80}
-              className="rounded-full z-50"
+              className="rounded-full z-10"
               src={Avatar}
               alt="avatar"
             ></Image>
